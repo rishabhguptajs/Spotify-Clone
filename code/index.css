@@ -1,0 +1,9 @@
+.left_body{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 19em;
+    background-color: rgb(16, 16, 16);
+    color: white;
+}
