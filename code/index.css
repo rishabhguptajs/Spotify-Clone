@@ -81,4 +81,114 @@ i {
 }
 .saved:hover{
     overflow-y: scroll;
+    cursor: default;
+}
+.saved::-webkit-scrollbar {
+    width: 10px;
+}
+.saved::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+.low_player{
+    position: fixed;
+    top: 86%;
+    left: 0px;
+    width: 100%;
+    height: 7em;
+    display: flex;
+    background-color: rgb(25, 25, 25);
+}
+.song_img{
+    position: relative;
+    left: 1.5%;
+    top: 17%;
+}
+.song_img .name{
+    position: relative;
+    top: -30%;
+    left: 10%;
+    letter-spacing: 0.8px;
+    font-size: 1.06em;
+    font-family: 'Nunito', sans-serif;
+}
+.song_img .artist{
+    position: relative;
+    left: 50%;
+    top: -30%;
+    font-size: 0.8em;
+    font-family: 'Quicksand', sans-serif;
+    color: #c2c2c2;
+    letter-spacing: 0.6px;
+}
+.song_img:hover{
+    cursor: pointer;
+}
+.song_img .name:hover, .song_img .artist:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.like_pip{
+    position: relative;
+    left: 5%;
+    top: 33.5%;
+    font-size: 1.3em;
+}
+#pip{
+    position: relative;
+    left: 20%;
+    top: 4%;
+}
+.sppnr{
+    position: relative;
+    left: 26.5%;
+    top: 10%;
+    font-size: 20px;
+    word-spacing: 30px;
+    cursor: default;
+    /* background-color: antiquewhite; */
+}
+.paus{
+    font-size: 30px;
+}
+.rep, .shuf{
+    font-size: 15px;
+}
+.trackbar {
+    position: relative;
+    left: 1%;
+    top: 60%;
+    width: 35%;
+    height: 5px;
+    background-color: #666666;
+    position: relative;
+    border-radius: 10px;
+}
+.progress {
+    height: 100%;
+    background-color: #00c4ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.lqcm{
+    position: relative;
+    left: 14%;
+    top: 35%;
+    word-spacing: 15px;
+    cursor: default;
+}
+.music_track {
+    position: relative;
+    left: 105%;
+    top: -16%;
+    width: 85%;
+    height: 5px;
+    background-color: #b4b4b4;
+    position: relative;
+    border-radius: 10px;
+}
+.music_track:hover{
+    background-color: rgb(2, 198, 2);
+    transition-duration: 0.3s;
 }
