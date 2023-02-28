@@ -148,6 +148,10 @@ i {
     cursor: default;
     /* background-color: antiquewhite; */
 }
+.sppnr .next{
+    position: relative;
+    top: 0%;
+}
 .paus{
     font-size: 30px;
 }
@@ -191,4 +195,53 @@ i {
 .music_track:hover{
     background-color: rgb(2, 198, 2);
     transition-duration: 0.3s;
+}
+.main{
+    position: absolute;
+    left: 20em; 
+    top: 0em;
+    width: 80em;
+    height: 42rem;
+    z-index: -1;
+}
+.scrolling{
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    background: rgb(31, 31, 31);
+    background: linear-gradient(0deg, rgb(19, 19, 19) 5%, rgba(40,40,40,1) 31%, rgba(65,65,65,1) 54%, rgba(73,73,73,1) 61%, rgba(93,93,93,1) 70%, rgba(173,173,173,1) 100%);
+}
+.prev, .next{
+    height: 40px;
+    position: relative;
+    left: 2%;
+    top: 1.5em;
+    padding: 5px;
+}
+.n_p .prev:hover{
+    cursor: pointer;
+}
+.n_p .next:hover{
+    cursor: not-allowed;
+}
+.premium_profile{
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 76%;
+    top: -2em;
+}
+.premium{
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    cursor: default;
+}
+.dp{
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
 }
