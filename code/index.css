@@ -245,3 +245,11 @@ i {
     width: 2em;
     border-radius: 50%;
 }
+.profile{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex; 
+    align-items: center;
+    word-spacing: 2px;
+}
