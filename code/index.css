@@ -209,7 +209,7 @@ i {
     width: 100%;
     overflow-y: scroll;
     background: rgb(31, 31, 31);
-    background: linear-gradient(0deg, rgb(19, 19, 19) 5%, rgba(40,40,40,1) 31%, rgba(65,65,65,1) 54%, rgba(73,73,73,1) 61%, rgba(93,93,93,1) 70%, rgba(173,173,173,1) 100%);
+    background: linear-gradient(0deg, rgb(18, 18, 18) 5%, rgba(40,40,40,1) 31%, rgb(61, 61, 61) 54%, rgba(73,73,73,1) 61%, rgb(75, 75, 75) 70%, rgb(59, 59, 59) 100%);
 }
 .prev, .next{
     height: 40px;
@@ -252,4 +252,15 @@ i {
     display: flex; 
     align-items: center;
     word-spacing: 2px;
+}
+.scrolling:hover{
+    overflow-y: scroll;
+    cursor: default;
+}
+.scrolling::-webkit-scrollbar {
+    width: 10px;
+}
+.scrolling::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
 }
