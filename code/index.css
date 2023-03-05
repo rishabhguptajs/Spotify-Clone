@@ -270,3 +270,23 @@ i {
     position: relative;
     left: 2.5%;
 }
+#pl_img{
+    height: 300px;
+}
+.img_r{
+    position: relative;
+    left: 25.5%;
+    top: -17em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+}
+.name_pl{
+    font-size: 7.2em;
+    font-weight: 800;
+    letter-spacing: -4.5px;
+}
+.singers{
+    padding-top: 15px;
+    padding-left: 10px;
+    font-weight: lighter;
+}
