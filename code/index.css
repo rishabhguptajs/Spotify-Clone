@@ -208,6 +208,7 @@ i {
     height: 100%;
     width: 100%;
     overflow-y: scroll;
+    overflow-x: hidden;
     background: rgb(31, 31, 31);
     background: linear-gradient(0deg, rgb(17, 61, 24) 10%, rgb(42, 255, 88) 100%);
 }
@@ -289,9 +290,32 @@ i {
     padding-top: 15px;
     padding-left: 10px;
     word-spacing: 1px;
-    font-weight: lighter;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 18px;
 }
 .s_name:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.owner{
+    display: flexbox;
+}
+.own_logo{
+    font-size: 29px;
+    padding-top: 25px;
+}
+.own_name{
+    position: relative;
+    top: -0.38em;
+    color: #adadad;
+}
+.owner_name{
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+}
+.owner_name:hover{
     text-decoration: underline;
     cursor: pointer;
 }
