@@ -209,7 +209,7 @@ i {
     width: 100%;
     overflow-y: scroll;
     background: rgb(31, 31, 31);
-    background: linear-gradient(0deg, rgb(18, 18, 18) 5%, rgba(40,40,40,1) 31%, rgb(61, 61, 61) 54%, rgba(73,73,73,1) 61%, rgb(75, 75, 75) 70%, rgb(59, 59, 59) 100%);
+    background: linear-gradient(0deg, rgb(17, 61, 24) 10%, rgb(42, 255, 88) 100%);
 }
 .prev, .next{
     height: 40px;
@@ -265,4 +265,8 @@ i {
 .scrolling::-webkit-scrollbar-thumb {
     background-color: #888;
     border-radius: 10px;
+}
+.pl_details{
+    position: relative;
+    left: 2.5%;
 }
