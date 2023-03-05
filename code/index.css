@@ -288,5 +288,10 @@ i {
 .singers{
     padding-top: 15px;
     padding-left: 10px;
+    word-spacing: 1px;
     font-weight: lighter;
+}
+.s_name:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
