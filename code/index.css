@@ -232,9 +232,11 @@ i {
     top: -2em;
 }
 .premium{
-    border: 1px solid rgb(187, 187, 187);
-    border-radius: 20px;
+    border: 0.1px solid rgb(114, 114, 114);
+    border-radius: 30px;
     padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-right: 30px;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 600;
