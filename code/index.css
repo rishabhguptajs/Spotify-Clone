@@ -308,8 +308,9 @@ i {
 }
 .own_name{
     position: relative;
-    top: -0.38em;
-    color: #adadad;
+    top: -0.28em;
+    color: #bababa;
+    font-size: 18px;
 }
 .owner_name{
     font-family: 'Julius Sans One', sans-serif;
@@ -318,4 +319,13 @@ i {
 .owner_name:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+.num_songs{
+    position: relative;
+    top: -0.36em;
+}
+.time_songs{
+    color: #c6c6c6;
+    position: relative;
+    top: -0.36em;
 }
